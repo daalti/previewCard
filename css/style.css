@@ -1,10 +1,3 @@
-.root{
-    --clr_dark_cyan: hsl(158, 36%, 37%);
-    --clr_cream: hsl(30, 38%, 92%);
-    --clr_very_dark_blue: hsl(212, 21%, 14%);
-    --clr_dark_grayish_blue: hsl(228, 12%, 48%);
-    --clr_white: hsl(0, 0%, 100%); 
-}
 body{
     background-color: hsl(30, 38%, 92%);
 }
@@ -19,8 +12,8 @@ body{
 .container{
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    width: 480px;
-    height: 350px;
+    width: 27rem;
+    height: 20rem;
     flex-direction: row;
 
     border-radius: 5%;
@@ -35,27 +28,27 @@ body{
 
 .text_container{
     text-align: left;
-    padding: 20px;
+    padding: 1.2rem;
     
 }
 
 .header1{
-    font-size: 8px;
+    font-size: 0.5rem;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 6px;
+    letter-spacing: 0.4rem;
     
 }
 
 .header2{
-    font-size: 25px;
+    font-size: 1.6rem;
     font-family: 'Fraunces', serif;
-    line-height: 1;
+    line-height: 1.5rem;
 
 }
 
 .text{
-    font-size: 14px;
-    line-height: 1.1;
+    font-size: 0.8rem;
+    line-height: 1.2;
     font-family: 'Fraunces', serif;
 }
 
@@ -68,28 +61,29 @@ body{
 .card__price-now{
     font-weight: bold;
     font-family: 'Fraunces', serif;
-    
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 
 .card__price-before{
-    padding-left: 15px;
-    text-decoration: line-through; font-family: 'Fraunces', serif;
+    padding-left: 1.2rem;
+    text-decoration: line-through; 
+    font-family: 'Fraunces', serif;
+    font-size: 0.8rem;
 }
 
 .button_buy{
     background-color: hsl(158, 36%, 37%);
     display: flex;
-    margin-left: 20px;
-    width: 170px;
-    height: 40px;
+    margin-left: 0.5rem;
+    width: 10rem;
+    height: 1.7rem;
     flex-direction: row;
     border-radius: 10%;
     border: none;
     color:  hsl(0, 0%, 100%);
     justify-content: center;
     align-items: center;
-    gap: 7px;
+    gap: 1rem;
     font-weight: 300;
 
 }
